@@ -1,0 +1,319 @@
+
+@keyframes expandWidth {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to {
+        width: 20%;
+        opacity: 1;
+    }
+
+}
+.servicesmainwrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20vh;
+
+}
+
+.serviceswrapper {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 100px;
+}
+
+.bathroom {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.bathroomtitle {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.bathroommessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.bathroom:hover .bathroommessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.bathroom:hover img {
+    opacity: 0.5;
+}
+.bathroom img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}
+
+.servicenavigatebutton {
+    color: white;
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.housetitle {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.housemessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.house:hover .housemessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.house:hover img {
+    opacity: 0.5;
+}
+.house img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}
+
+
+
+
+.kitchen {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.kitchentitle {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.kitchenmessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.kitchen:hover .kitchenmessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.kitchen:hover img {
+    opacity: 0.5;
+}
+.kitchen img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}
+
+
+
+.outdoor{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.outdoortitle {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.outdoormessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.outdoor:hover .outdoormessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.outdoor:hover img {
+    opacity: 0.5;
+}
+.outdoor img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}
+
+.roofing {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.roofingtitle {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.roofingmessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.roofing:hover .roofingmessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.roofing:hover img {
+    opacity: 0.5;
+}
+.roofing img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}
+
+.room {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vh;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.room {
+    display: flex;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.roommessage {
+    display: none;
+    width: 0;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    border-radius: 5px;
+    
+}
+
+.room:hover .roommessage {
+ display: flex;
+ position: absolute;
+ animation: expandWidth 0.2s ease-in-out forwards;
+ 
+}
+
+.room:hover img {
+    opacity: 0.5;
+}
+.room img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+
+ 
+}

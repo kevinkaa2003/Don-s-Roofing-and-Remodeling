@@ -1,0 +1,332 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.0s ease-in-out;
+}
+
+
+/*Bathroom */
+
+.bathroomshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.bathroomshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bathroomshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.bathroomtable {
+
+   
+
+}
+.bathroomtable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.bathroomtable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+/*House*/
+
+.houseshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.houseshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.houseshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.housetable {
+
+   
+
+}
+.housetable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.housetable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+
+/*Kitchen */
+
+.kitchenshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.kitchenshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.kitchenshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.kitchentable {
+
+   
+
+}
+.kitchentable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.kitchentable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+/*Outdoor */
+
+.outdoorshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.outdoorshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.outdoorshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.outdoortable {
+
+   
+
+}
+.outdoortable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.outdoortable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+/*Roof */
+
+.roofshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.roofshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.roofshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.rooftable {
+
+   
+
+}
+.rooftable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.rooftable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+
+/*Room */
+
+.roomshowcasetitle {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: white;
+   
+}
+
+.roomshowcasemain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.roomshowcasewrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+    border-radius: 15px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.roomtable {
+
+   
+
+}
+.roomtable img {
+    height: 35vh;
+    width: 35vw;
+    object-fit: contain; 
+    
+    
+}
+
+.roomtable td {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+.previousbutton {
+    color: white;
+    padding: 100px;
+
+}
+.previousbutton strong:hover {
+    color: rgb(212, 108, 3);
+}
+.nextbutton {
+    color: white;
+    padding-right: 150px;
+}
+.nextbutton strong:hover {
+    color: rgb(212, 108, 3);
+}
+
+.scheduleconsultationbutton {
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(235, 152, 7);
+    width: 25vw;
+}
+
+.scheduleconsultationbutton:hover {
+    background-color:rgb(251, 221, 170);
+
+}

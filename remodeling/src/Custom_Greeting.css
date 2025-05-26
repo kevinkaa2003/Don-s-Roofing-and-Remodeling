@@ -1,0 +1,98 @@
+.homegreeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 15%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+    
+}
+
+.welcomecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25vh;
+    background-color: none;
+    width: 75vw;
+    height: 50vh;
+   
+}
+.video {
+    display: flex;
+    flex-direction: column; /*Stack elements vertically */;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: black;
+    height: 100%; /* Ensure it uses the height of its parent */
+    width: 100%; /* Ensure it uses the width of its parent */
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.video video {
+    scale: 1.0;
+   
+}
+.video strong {
+    margin-top: 50px;
+    font-size: 100px;
+}
+.profilepicture {
+    min-width: 100%;
+    min-height: 100%;
+    
+   
+}
+.welcomeparagraph {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    max-width: 500px;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    height: 100%;
+    width: 100%;
+    margin-right: 10%;
+}
+.welcomeparagraph button {
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    background-color:rgb(235, 152, 7);
+}
+.welcomeparagraph img {
+    scale: 0.75;
+    
+}
+.welcomeparagraph1 {
+    color:rgb(255, 162, 0);
+    font-size: 40px;
+    margin-left: 1vw;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.welcomeparagraph2 {
+    color: rgb(235, 152, 7);
+    font-size: 30px;
+    margin-left: 1vw;
+}
+.welcomeparagraph3 {
+    color:rgb(235, 152, 7);
+    font-size: 30px;
+    margin-left: 1vw;
+
+}
+.welcomeparagraph button:hover {
+    background-color:rgb(251, 221, 170);
+
+}
+
+
+.welcomeparagraph button a {
+    color: white;
+}
