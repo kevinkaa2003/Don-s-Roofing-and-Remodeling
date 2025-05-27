@@ -7,13 +7,13 @@ const ContactWidget = () => {
     const form = useRef(); 
 
     useEffect (() => {
-        emailjs.init("5xgP6vguaJHGTQ-E4");
+        emailjs.init(""); //Initialization Key
     }, []);
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_a33tvv9', 'template_35yivvp', form.current, '5xgP6vguaJHGTQ-E4' )
+        emailjs.sendForm('', '', form.current, '' ) //Service ID/Template ID/form.current/Public Key
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert('Email sent successfully!');
