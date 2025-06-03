@@ -2,13 +2,12 @@ import './Custom_Footer.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './DRR logo.jpg';
 
-
-
-
+//Custom footer component
 const CustomFooter = () => {
+    //Navigation
     const navigate = useNavigate();
     const goToContact = () => navigate('/Contact');
-    
+
     return (
         <>
         <div className="mainfooter">
@@ -50,5 +49,5 @@ const CustomFooter = () => {
 
       );
 }
- 
+
 export default CustomFooter;

@@ -8,27 +8,20 @@ import HomeGreeting from './Custom_Greeting.js';
 import CustomFooter from './Custom_Footer.js';
 import Slideshow from './Custom_Slideshow.js';
 import ServicesDisplay from './ServicesDisplay.js';
-import { DataProvider } from './DataProvider.js';
 
 
-
+//Home component
 const Home = () => {
 
     const servicesRef = useRef(null);
 
-    const servicesScroll = () => {
-        servicesRef.current.scrollIntoView({ behavior: 'smooth' })
-    } //???
-
     return (
         <>
-        <DataProvider>
-            <Navbar/>
-            <Slideshow/>
-            <HomeGreeting/>
-            <ServicesDisplay/>
-            <CustomFooter/>
-        </DataProvider>
+        <Navbar/>
+        <Slideshow/>
+        <HomeGreeting/>
+        <ServicesDisplay/>
+        <CustomFooter/>
         </>
     );
 }

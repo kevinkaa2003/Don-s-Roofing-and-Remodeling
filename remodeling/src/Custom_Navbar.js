@@ -2,23 +2,25 @@ import React, { useState, useEffect, useContext } from 'react';
 import './Custom_Navbar.css';
 import { useNavigate } from 'react-router-dom';
 import logo from './DRR logo.jpg';
-import { DataContext } from './DataProvider';
 
 
-
+//Navbar component
 const Navbar = () => {
 
+    //Declare variables
     const [searchTerm, setSearchTerm] = useState("");
     const [searchResults, setSearchResults] = useState([]);
     const [isInputFocused, setIsInputFocused] = useState(false);
     const searchBar = document.getElementById('searchbar');
     const searchResultsDiv = document.getElementById('search-results');
 
+    //Searchbar input handling
     useEffect( () => {
 
         const searchBar = document.getElementById('searchbar');
         const searchResultsDiv = document.getElementById('search-results');
 
+        //Handle Input functionS
         const handleInput = (event) => {
             if (isInputFocused) {
                if (event.target.value.length > 0) {
@@ -34,6 +36,7 @@ const Navbar = () => {
 
         };
 
+        //Handle focus function
         const handleFocus = () => {
             setIsInputFocused(true); //Set focus flag
 
@@ -61,6 +64,7 @@ const Navbar = () => {
         const input = event.target.value.toLowerCase();
         setSearchTerm(input); //Update the state
 
+        //Search Terms
         const searchItems = [
             { name: "Home", url: "/" },
             { name: "Contact", url: "/Contact" },
@@ -82,7 +86,7 @@ const Navbar = () => {
          setSearchResults(filteredSearch);
     };
 
-
+    //Function to render search results
     function renderSearchResults(searchResults, searchTerm) {
         //Check if there are search results
         if (searchResults.length > 0) {
@@ -107,8 +111,6 @@ const Navbar = () => {
     };
 
 
-
-
     //Navigation
     const navigate = useNavigate();
 
@@ -118,15 +120,6 @@ const Navbar = () => {
 
     const goToContact = () => {
         navigate('/Contact');
-    };
-    const goToServices = () => {
-        navigate('/#services');//Navigate to Home, then scroll
-        setTimeout(() => {
-            const element = document.getElementById('services');
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-            }
-        }, 100); //Small delay to ensure navigation
     };
 
     const goToBathroom = () => {

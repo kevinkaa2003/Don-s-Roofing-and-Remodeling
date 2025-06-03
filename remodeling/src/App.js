@@ -1,8 +1,7 @@
 import './App.css';
-import { DataContext } from './DataProvider';
-import React, { useContext, useEffect, useState, createContext } from 'react'; 
+import React, { useContext, useEffect, useState, createContext } from 'react';
 import { Route, Routes, BrowserRouter as Router, useLocation } from 'react-router-dom';
-import Home from './Home'; 
+import Home from './Home';
 import Contact from './Contact';
 import Bathroom from './Bathroom';
 import House from './House';
@@ -12,10 +11,9 @@ import Roof from './Roof';
 import Room from './Room';
 
 function App() {
-  return (
+  return ( //Declare Routes
     <>
     <div className='App'>
-    <DataContext>
       <Routes>
         <Route path='/' element={<Home/>}></Route> {/*Path for Home Page*/}
         <Route path='/Contact' element={<Contact/>}></Route>
@@ -26,10 +24,9 @@ function App() {
         <Route path='/Roof' element={<Roof/>}></Route>
         <Route path='/Room' element={<Room/>}></Route>
       </Routes>
-    </DataContext>
     </div>
     </>
-    
+
   );
 }
 

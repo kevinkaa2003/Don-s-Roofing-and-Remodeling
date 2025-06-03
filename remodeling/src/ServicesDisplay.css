@@ -19,7 +19,7 @@
 }
 
 .serviceswrapper {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 100px;
@@ -51,14 +51,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .bathroom:hover .bathroommessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .bathroom:hover img {
@@ -69,7 +70,7 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }
 
 .servicenavigatebutton {
@@ -104,14 +105,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .house:hover .housemessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .house:hover img {
@@ -122,7 +124,7 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }
 
 
@@ -154,14 +156,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .kitchen:hover .kitchenmessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .kitchen:hover img {
@@ -172,7 +175,7 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }
 
 
@@ -203,14 +206,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .outdoor:hover .outdoormessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .outdoor:hover img {
@@ -221,7 +225,7 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }
 
 .roofing {
@@ -250,14 +254,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .roofing:hover .roofingmessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .roofing:hover img {
@@ -268,7 +273,7 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }
 
 .room {
@@ -297,14 +302,15 @@
     color: white;
     background-color: rgb(255, 162, 0);
     border-radius: 5px;
-    
+    justify-content: center;
+
 }
 
 .room:hover .roommessage {
  display: flex;
  position: absolute;
  animation: expandWidth 0.2s ease-in-out forwards;
- 
+
 }
 
 .room:hover img {
@@ -315,5 +321,5 @@
     height: 20vh;
     border-radius: 10px;
 
- 
+
 }

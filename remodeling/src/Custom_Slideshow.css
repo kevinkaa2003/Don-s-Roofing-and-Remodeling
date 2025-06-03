@@ -54,8 +54,8 @@ animation: fadeInAnimation 3s ease-in-out;
 .slideshowtable img {
     transform: scale(0.75, 0.75);
 
-
 }
+
 .message {
     display: flex;
     position: absolute;

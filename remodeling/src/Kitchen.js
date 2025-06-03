@@ -5,23 +5,20 @@ import CustomFooter from './Custom_Footer.js';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-
+//Kitchen component
 const Kitchen = () => {
 
     const [ kitchen, setKitchen ] = useState(true);
 
-    return (  
+    return (
         <>
-        
         <Navbar></Navbar>
         <div className="kitchenbodymain">
             <Showcase kitchen = {kitchen}></Showcase>
-           
         </div>
         <CustomFooter></CustomFooter>
-
         </>
     );
 }
- 
+
 export default Kitchen;

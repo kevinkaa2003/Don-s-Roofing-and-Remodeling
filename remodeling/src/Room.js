@@ -5,23 +5,19 @@ import CustomFooter from './Custom_Footer.js';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-
+//Room Component
 const Room = () => {
-
     const [ room, setRoom ] = useState(true);
 
-    return (  
+    return (
         <>
-        
         <Navbar></Navbar>
         <div className="roombodymain">
             <Showcase room = {room}></Showcase>
-           
         </div>
         <CustomFooter></CustomFooter>
-
         </>
     );
 }
- 
+
 export default Room;

@@ -5,12 +5,11 @@ import ReactDOM from 'react-dom';
 import Navbar from './Custom_Navbar.js';
 import CustomFooter from './Custom_Footer.js';
 import ContactWidget from './Contact_Widget.js';
-import { DataProvider } from './DataProvider.js';
 
+//Contact component
 const Contact = () => {
   return (
     <>
-      <DataProvider>
         <Navbar/>
         <div className="pagebody">
           <ContactWidget/>
@@ -21,7 +20,6 @@ const Contact = () => {
           <br/>
         </div>
         <CustomFooter/>
-      </DataProvider>
     </>
   );
 }

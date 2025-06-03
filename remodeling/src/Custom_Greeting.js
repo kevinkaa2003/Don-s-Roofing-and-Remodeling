@@ -3,35 +3,27 @@ import { useNavigate } from 'react-router-dom';
 import './Custom_Greeting.css';
 import video1 from './remodeling1.mp4';
 
-
+//HomeGreeting component
 const HomeGreeting = () => {
+    //Navigation
     const navigate = useNavigate();
-    
     const goToContact = () => {
         navigate("/Contact");
-    };
-
-    const goToPortfolio = () => {
-        navigate("/Portfolio");   
     };
 
     //Video Sources
     const videoSources = [video1];
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
-    //Video Handler Function
-    const handleVideoEnd = () => {
-        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoSources.length);
-    };
 
-    return (  
+
+    return (
         <>
         <div className="homegreeting">
             <div className="welcomecontainer">
                 <div className="welcomeparagraph">
-                    
                     <div className="welcomeparagraph1">
-                        <p>Don's Roofing & 
+                        <p>Don's Roofing &
                         <br/> Remodeling</p>
                     </div>
                     <br/>
@@ -44,22 +36,16 @@ const HomeGreeting = () => {
                     </div>
                     <br/>
                     <div className="welcomebuttons">
-            
                         <button onClick={goToContact}>Schedule a Consulation</button>
-                    </div>
-                    <div className='video'>
-
                     </div>
                 </div>
                 <div className='video'>
                     <video src={videoSources[currentVideoIndex]} autoPlay muted playsInline loop/>
                 </div>
             </div>
-            
-         
         </div>
         </>
     );
 }
- 
+
 export default HomeGreeting;

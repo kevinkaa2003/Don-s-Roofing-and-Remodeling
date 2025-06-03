@@ -7,8 +7,11 @@ import roofing from './pexels-pixabay-259588.jpg';
 import room from './pexels-reneterp-1358900.jpg';
 import { useNavigate } from 'react-router-dom';
 
+//Services Display Component
 const ServicesDisplay = () => {
 
+
+    //Navigation
     const navigate = useNavigate();
 
     const goToBathroom = () => {
@@ -52,7 +55,7 @@ const ServicesDisplay = () => {
                     <img src={house}></img>
                     <div className='housemessage'>
                     <button onClick={goToHouse} className='servicenavigatebutton'>Click to View our Whole House Showcase</button>
-                    </div>                  
+                    </div>
                 </div>
                 <div className='kitchen'>
                     <div className='kitchentitle'>
@@ -61,7 +64,7 @@ const ServicesDisplay = () => {
                     <br/>
                     <img src={kitchen}></img>
                     <div className='kitchenmessage'>
-                    <button onClick={goToKitchen} className='servicenavigatebutton'>Click to View our Kitchen Showcase</button>   
+                    <button onClick={goToKitchen} className='servicenavigatebutton'>Click to View our Kitchen Showcase</button>
                     </div>
                 </div>
                 <div className='outdoor'>
@@ -95,10 +98,9 @@ const ServicesDisplay = () => {
                     </div>
                 </div>
             </div>
-
         </div>
         </>
       );
 }
- 
+
 export default ServicesDisplay;
